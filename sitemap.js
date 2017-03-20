@@ -233,7 +233,7 @@ function displayToc(filter) {
    }
    tocTable += '</table>';
    if (numDisplayed == postTitle.length) {
-      var tocNote = '<span class="toc-note">menampilkan semua sebanyak' + postTitle.length + ' postingan<br/></span>'; }
+      var tocNote = '<span class="toc-note">menampilkan semua sebanyak  ' + postTitle.length + ' postingan<br/></span>'; }
    else {
       var tocNote = '<span class="toc-note">Menampilkan ' + numDisplayed + ' posts labeled \'';
       tocNote += postFilter + '\' of '+ postTitle.length + ' posts total<br/></span>';
